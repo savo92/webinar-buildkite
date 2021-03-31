@@ -1,6 +1,6 @@
 steps:
     - name: 'Run a Docker compose service'
-      command: 'bash ./script/hello-world-from-docker'
+      command: './script/hello-world-from-docker'
       plugins:
           docker-compose#v3.3.0:
               run: example_2
