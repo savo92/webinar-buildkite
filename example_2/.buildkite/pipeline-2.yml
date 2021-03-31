@@ -1,0 +1,14 @@
+steps:
+    - name: 'Run a Docker compose service'
+      command: 'bash ./script/hello-world-from-docker'
+      plugins:
+          docker-compose#v3.3.0:
+              run: example_2
+              config:
+                  - ./example_2/docker-compose.yml
+	      env:
+                  - ENV_VAR_1
+      agents:
+          queue: '${BUILDKITE_AGENT_META_DATA_QUEUE:-default}'
+      concurrency: 1
+      concurrency_group: 'example_2/hello-world'
