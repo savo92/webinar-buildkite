@@ -6,7 +6,7 @@ steps:
               run: example_2
               config:
                   - ./example_2/docker-compose.yml
-	      env:
+              env:
                   - ENV_VAR_1
       agents:
           queue: '${BUILDKITE_AGENT_META_DATA_QUEUE:-default}'
