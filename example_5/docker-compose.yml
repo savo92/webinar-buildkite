@@ -1,0 +1,6 @@
+version: "3"
+
+services:
+    example_5:
+        build: .
+        container_name: example_5

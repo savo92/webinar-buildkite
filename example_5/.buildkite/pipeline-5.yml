@@ -1,8 +1,14 @@
 steps:
-    - name: 'Run a command'
-      command: './example_5/script/hello-world'
-
-    - block: ":rocket: Go ahead!"
-
-    - name: 'Run the same command again'
-      command: './example_5/script/hello-world'
+    - name: 'Run a Docker compose service'
+      command: './script/hello-world-from-docker'
+      plugins:
+          docker-compose#v3.3.0:
+              run: example_5
+              config:
+                  - ./example_5/docker-compose.yml
+              env:
+                  - ENV_VAR_1
+      agents:
+          queue: '${BUILDKITE_AGENT_META_DATA_QUEUE:-default}'
+      concurrency: 1
+      concurrency_group: 'example_5/hello-world'

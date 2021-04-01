@@ -1,6 +1,0 @@
-version: "3"
-
-services:
-    example_2:
-        build: .
-        container_name: example_2

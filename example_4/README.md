@@ -1,4 +1,4 @@
 Example 4
 =========
 
-> A pipeline with 2 consecutive steps.
+> A pipeline using a block step.
