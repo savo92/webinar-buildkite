@@ -4,5 +4,5 @@ steps:
 
     - name: 'Run the same command again'
       commands:
-        - './example_3/script/sleeping-hello-world'
+        - './example_3/script/hello-world'
         - 'echo "2nd command here!"'
