@@ -4,5 +4,7 @@ steps:
       artifact_paths:
         - "output.txt"
 
+    - wait
+
     - name: 'Downloading output.txt'
       command: 'buildkite-agent artifact download output.txt .'
