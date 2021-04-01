@@ -1,0 +1,8 @@
+steps:
+    - name: 'Run a command'
+      command: './example_5/script/hello-world'
+
+    - block: ":rocket: Go ahead!"
+
+    - name: 'Run the same command again'
+      command: './example_5/script/hello-world'
