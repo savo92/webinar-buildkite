@@ -1,6 +1,6 @@
 steps:
     - name: 'Run a command'
-      command: './example_3/script/hello-world-delayed'
+      command: './example_3/script/sleeping-hello-world'
 
     - name: 'Run the same command again'
-      command: './example_3/script/hello-world-delayed'
+      command: './example_3/script/sleeping-hello-world'
