@@ -7,3 +7,4 @@
 - Example 3: Pipeline with a wait step.
 - Example 4: Pipeline with a block step.
 - Example 5: Pipeline using the Docker-compose agent plugin, printing "Hello world" from a Docker compose service.
+- Example 6: Pipeline using Buildkite meta-data.
