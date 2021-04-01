@@ -1,8 +1,8 @@
 steps:
-    - name: "Uploading output.txt"
-      command: "./example_7/script/create-file"
+    - name: 'Uploading output.txt'
+      command: 'echo "ciao!" > output.txt'
       artifact_paths:
-        - "output.txt"
+        - 'output.txt'
 
     - wait
 

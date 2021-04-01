@@ -1,8 +1,8 @@
 steps:
-    - block: "Request Release"
+    - block: 'Request Release'
       fields:
-        - text: "Code Name"
-          key: "release-name"
+        - text: 'Code Name'
+          key: 'release-name'
 
     - name: 'Print the code name'
       command: 'buildkite-agent meta-data get "release-name"'
