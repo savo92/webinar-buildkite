@@ -3,4 +3,6 @@ steps:
       command: './example_3/script/sleeping-hello-world'
 
     - name: 'Run the same command again'
-      command: './example_3/script/sleeping-hello-world'
+      commands:
+        - './example_3/script/sleeping-hello-world'
+        - 'echo "2nd command here!"'
