@@ -1,0 +1,8 @@
+steps:
+    - name: "Uploading output.txt"
+      command: "./example_7/script/create-file"
+      artifact_paths:
+        - "output.txt"
+
+    - name: 'Downloading output.txt'
+      command: 'buildkite-agent artifact download output.txt .'
