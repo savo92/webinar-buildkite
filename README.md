@@ -11,3 +11,4 @@
 - Example 7: Uploading/downloading artifacts.
 - Example 8: Dynamically generating steps.
 - Example 9: `if` and `branches`.
+- Example 10: Using `depends_on`.

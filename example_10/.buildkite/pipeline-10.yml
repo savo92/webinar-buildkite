@@ -1,0 +1,8 @@
+steps:
+    - key: 'hello-world-1'
+      command: 'echo "Hello world!"'
+
+    - command: 'echo "Hello world! depending on the 1st command"'
+      depends_on: 'hello-world-1'
+
+    - command: 'echo "Free Hello world!"'
