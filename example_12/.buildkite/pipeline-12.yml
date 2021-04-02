@@ -1,0 +1,2 @@
+steps:
+    - command: 'printf "\033]1338;url=https://media.giphy.com/media/l3q2zVr6cu95nF6O4/giphy.gif\a\n"'
