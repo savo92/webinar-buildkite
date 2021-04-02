@@ -1,0 +1,5 @@
+steps:
+    - key: 'hello-world-1'
+      command: 'echo "Hello world!" && sleep 15 && echo "Done!"'
+      concurrency: 1
+      concurrency_group: 'hello-world/1'
