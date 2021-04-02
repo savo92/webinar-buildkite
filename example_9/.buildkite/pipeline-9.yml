@@ -1,0 +1,8 @@
+steps:
+    - name: 'Hello world!'
+      command: 'echo "Hello world!"'
+      if: build.message !~ /skip hello world/
+
+    - name: 'Hello world on production branch'
+      command: 'echo "Hello world!"'
+      branches: 'production'

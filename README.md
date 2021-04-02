@@ -10,3 +10,4 @@
 - Example 6: Using Buildkite meta-data.
 - Example 7: Uploading/downloading artifacts.
 - Example 8: Dynamically generating steps.
+- Example 9: `if` and `branches`.
