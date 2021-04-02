@@ -9,3 +9,4 @@
 - Example 5: Using the Docker-compose agent plugin, printing "Hello world" from a Docker compose service.
 - Example 6: Using Buildkite meta-data.
 - Example 7: Uploading/downloading artifacts.
+- Example 8: Dynamically generating steps.

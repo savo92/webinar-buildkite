@@ -1,5 +1,5 @@
 steps:
-    - block: 'Configure the new steps'
+    - block: 'Configure dynamic steps'
       fields:
         - text: 'How many step shall I create?'
           key: 'steps-count'
