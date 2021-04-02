@@ -5,4 +5,4 @@ steps:
           key: 'steps-count'
 
     - name: 'Generating steps'
-      command: './example_8/script/pipeline-generator | buildkite-agent pipeline upload'
+      command: './example_08/script/pipeline-generator | buildkite-agent pipeline upload'

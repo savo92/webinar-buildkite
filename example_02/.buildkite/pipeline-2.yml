@@ -1,8 +1,8 @@
 steps:
     - name: 'Run a command'
-      command: './example_2/script/sleeping-hello-world'
+      command: './example_02/script/sleeping-hello-world'
 
     - name: 'Run the same command again'
       commands:
-        - './example_2/script/hello-world'
+        - './example_02/script/hello-world'
         - 'echo "2nd command here!"'

@@ -1,0 +1,3 @@
+steps:
+    - name: 'Hello world! :earth_africa:'
+      command: 'bash ./example_01/script/hello-world'

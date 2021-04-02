@@ -5,7 +5,7 @@ steps:
           docker-compose#v3.3.0:
               run: example_5
               config:
-                  - ./example_5/docker-compose.yml
+                  - ./example_05/docker-compose.yml
               env:
                   - ENV_VAR_1
       agents:

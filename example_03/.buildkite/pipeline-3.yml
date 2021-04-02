@@ -1,0 +1,8 @@
+steps:
+    - name: 'Run a command'
+      command: './example_03/script/hello-world'
+
+    - wait
+
+    - name: 'Run the same command again'
+      command: './example_03/script/hello-world'
