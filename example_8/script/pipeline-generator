@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -euo pipefail
+
+STEPS_COUNT="$(buildkite-agent meta-data get 'steps-count')"
+
+for i in $(seq 1 $STEPS_COUNT)
+do
+
+    cat <<YAML
+- label: 'Step #$i'
+  command: 'echo "This is step #$i"'
+YAML
+
+done

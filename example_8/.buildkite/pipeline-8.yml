@@ -1,0 +1,8 @@
+steps:
+    - block: 'Configure the new steps'
+      fields:
+        - text: 'How many step shall I create?'
+          key: 'steps-count'
+
+    - name: 'Generating steps'
+      command: './example_8/script/pipeline-generator | buildkite-agent pipeline upload'
